@@ -43,11 +43,17 @@ p {
 .comment {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    margin-top: -270px;
+    margin-top: -310px;
     margin-left: 600px;
 }
 
 ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 300px;
 }
