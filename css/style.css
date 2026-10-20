@@ -1,9 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(250, 190, 233);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.introduction {
+    font-style: italic;
+    margin-top: 0;
 }
 
 h1 {
     font-size: 70px;
+    margin-bottom: 0;
     margin-left: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -33,18 +53,35 @@ h1 {
     height: 250px;
 }
 
+.hobbies{
+    margin-top: 0;
+    margin-top: 0;
+    padding-left: 15px;
+}
+
+section {
+    background-color: white;
+    margin: 1 rem auto;
+    padding: 1 rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    margin-top: 100px;
-    margin-left: 15px;
 }
 
 .comment {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    margin-top: -310px;
+    margin-top: -410px;
     margin-left: 600px;
+    border-bottom: 2px solid #ccc;
+}
+
+.myhobbies {
+     border-bottom: 2px solid #ccc;
 }
 
 ul {
@@ -52,8 +89,22 @@ ul {
     font-size: 35px;
 }
 
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
 footer {
+    background-color: pink;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    margin-top: 300px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
